@@ -1,0 +1,16 @@
+{
+  "name": "twit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Ratliff",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "socket.io": "^1.7.3"
+  }
+}

@@ -2,8 +2,20 @@
 <html>
 	<head>
 		<title>Twit</title>
+		<link rel='stylesheet' href='/css/twit.css'/>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/jquery.js"></script>
+		<script src="/js/twit.js"></script>
 	</head>
 	<body>
 		<h1>Twit</h1>
+		<div id='messages'></div>
+		<div id='enterMessage'>
+			<input type='text' id='newMessage'/>
+			<input type='button' id='sendMessage' value='Post'/>
+			<div id='error'>
+				Post must be less than 11 characters long
+			</div>
+		</div>
 	</body>
 </html>

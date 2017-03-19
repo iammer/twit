@@ -1,3 +1,99 @@
 #error {
   display: none;
 }
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+#messages {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+#login-area, #faq {
+  margin: auto;
+  width: 800px;
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#faq {
+  margin-top: 5px;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: large;
+}
+
+.question {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.answer {
+  font-style: italic;
+  padding-left: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  width: 680px;
+}
+
+
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: solid 2px #969696;
+}
+
+
+body {
+  background: rgba(73,155,234,1);
+  background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.date {
+  float: right;
+}
+
+.name {
+  float:left;
+  font-weight: bold;
+}
+
+.message-text {
+  margin-left: 2em;
+}
+
+#enterMessage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 800px;
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+

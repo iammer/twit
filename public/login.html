@@ -8,11 +8,29 @@
 	</head>
 	<body>
 		<h1>Twit</h1>
-		<h2>Login</h2>
-		<input type='text' id='user'/>
-		<input type='button' id='login' value='Login'/>
-		<div id='error'>
-			Name must be less than 3 characters long.
+		<div id='login-area'>
+			<label for='user'>Enter Username: </label>
+			<input type='text' id='user'/>
+			<div id='error'>
+				Name must be less than 3 characters long.
+			</div>
+		</div>
+		<div id='faq'>
+			<h2>FAQ</h2>
+			<div class='question'>1.What is Twit?</div>
+			<div class='answer'>Twit is a femto-blogging service.</div>
+			<div class='question'>2. What is femto-blogging?</div>
+			<div class='answer'>It is like micro-blogging, but smaller.</div>
+			<div class='question'>3. How long can posts be.</div>
+			<div class='answer'>Posts can be a maximum of 11 bytes.</div>
+			<div class='question'>4. Why 11 bytes and not 11 characters.</div>
+			<div class='answer'>Because javascript.</div>
+			<div class='question'>5. What about usernames?</div>
+			<div class='answer'>Usernames can be a maximum of 3 bytes.</div>
+			<div class='question'>6. What about passwords?</div>
+			<div class='answer'>Passwords can be a maximum of 0 bytes.</div>
+			<div class='question'>7. I don't know who to follow.</div>
+			<div class='answer'>No problem, everybody follows everybody else.</div>
 		</div>
 	</body>
 </html>
